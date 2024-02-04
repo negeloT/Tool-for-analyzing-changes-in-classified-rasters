@@ -25,7 +25,7 @@ class Changes(object):
         first_raster = arcpy.Parameter(
             displayName="First raster",
             name="first_raster",
-            datatype="DERasterDataset",
+            datatype="GPRasterLayer",
             parameterType="Required",
             direction="Input")
 
@@ -41,7 +41,7 @@ class Changes(object):
         second_raster = arcpy.Parameter(
             displayName="Second raster",
             name="second_raster",
-            datatype="DERasterDataset",
+            datatype="GPRasterLayer",
             parameterType="Required",
             direction="Input")
 
