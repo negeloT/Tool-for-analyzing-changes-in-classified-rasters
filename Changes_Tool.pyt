@@ -90,6 +90,5 @@ class Changes(object):
                                    join_table=tbl, join_field="VALUE",
                                    fields=["First","Second","Change"])
 
-        arcpy.AddMessage("Готово: пиксели с First=Second удалены, поля добавлены в VAT.")
-
         return
+
